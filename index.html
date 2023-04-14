@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- estilo.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="img/Lux luxo.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Studio Since2018</title>
+</head>
+<body>
+    <!-- SESSÃO HEADER -->
+    <header class="header-1" id="header">
+        <div class="navbar container flex">
+            <div class="brand">
+                <a href="#">
+                    <h2>Studio 
+                       <br> Since2018
+                    </h2>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="nav_menu">
+                    <li class="nav_item"><a href="#" class="nav_link active-link"></a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link action-link">Quem Somos Nós </a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Serviços </a></li>
+                    <li class="nav_item"><a href="#package" class="nav_link">Pacotes </a></li>
+                    <li class="nav_item"><a href="#gallery" class="nav_link">Galeria </a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+        <!-- SESSÃO MAIN -->
+        <main>
+        <section class="hero">
+             <div class="container">
+                <div class="row">
+                    <div class="hero_img">
+                        <img src="img/home-img.png" alt="inicio">
+                    </div>
+                    <div class="hero_content">
+                        <h1>Seu Grande dia<br><span>em Grande estilo</span></h1>
+                        <p>Venha conhecer nosso cantinho da noiva e aproveite para agendar sua data.</p>
+                        <a href="https://wa.me/5511989436866" target="_blank" class="btn btn_outline"><i class='bx bxl-whatsapp'></i>Agende seu horário</a>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="about section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section_title">
+                <h1>Nossa História </h1><BR>
+                <span>Studio LuxLuxo</span>
+            </div>
+            <div class="about_detail">
+                <div class="about_detail_content">
+            <div class="about_img">
+           <img src="img/about-img.jpg" alt="about">
+           </div>
+<div class="about_descripion">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores rerum ex cupiditate dolor quae totam voluptatibus facere hic autem consequatur illo modi suscipit possimus, itaque molestias aperiam ab soluta earum!</p>
+</div>
+</div>
+ </div>
+</div>
+ </div>
+        </section>
+        <section class="services section" id="services">
+            <div class="services_content">
+                <div class="row">
+                    <div class="section_title">
+                        <h1>Serviços</h1> <br>
+                        <span>Que realizamos</span>
+                    </div>
+                </div>
+                <div class="services_content_descripion grid container">
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/manicure.png" alt="">
+                            <P>Manicure</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/pedicure.png" alt="">
+                            <P>Pedicure</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/maquiagem.png" alt="">
+                            <P>Maquiagem</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/pentado.png" alt="">
+                            <P>Penteado</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/corte.png" alt="">
+                            <P>Corte de cabelo</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/sobrancelha.png" alt="">
+                            <P>Design de Sombrancelha</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/depilação.png" alt="">
+                            <P>Depilação com cera</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/limpeza.png" alt="">
+                            <P>Limpeza de pele</P>
+                        </div>
+                        <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package section" id="package">
+            <div class="package_-content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Pacotes promocionais</h1>
+                        <span>Para seu dia de noiva</span>
+                    </div>
+                </div>
+                <div class="package__cards row container">
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Bronze</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Penteado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Maquiagem</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Unhas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Depilação<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Design de sobrancelha</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Limpeza de pele</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Sala de noiva reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Prata</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Penteado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Maquiagem</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Unhas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Depilação<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Design de sobrancelha</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Limpeza de pele</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Sala de noiva reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Ouro</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Penteado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Maquiagem</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Unhas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Depilação<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Design de sobrancelha</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Limpeza de pele</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Sala de noiva reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon'></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Diamante</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Penteado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Maquiagem</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Unhas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Depilação<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Design de sobrancelha</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Limpeza de pele</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Sala de noiva reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon'></i>
+                                <p>Mesa de frutas</p>
+                            </div>
+                            <button onclick="abrirWhatsApp()" class="btn">quero esse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery section" id="gallery">
+            <div class="gallery__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Galeria</h1>
+                        <span>As princesas do nosso instragram</span>
+                    </div>
+                </div>
+                <div class="gallery__list__img row container">
+                    <div class="gallery__img">
+                        <img src="img/unha.jpg" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="img/péfeito.jpg" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="" alt="">
+                    </div>
+                 
+                </div>
+                <button class="btn">ver mais</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer" id="contact">
+        <div class="footer__list section container grid">
+            <div class="footer__data">
+                <h1><a href="#"><img src="img/logo.svg" alt=""></a></h1>
+                <div class="footer__data-social">
+                    <a href=""><i class='bx bxl-facebook social__icon'></i></a>
+                    <a href=""><i class='bx bxl-instagram social__icon'></i></a>
+                    <a href=""><i class='bx bxl-whatsapp social__icon'></i></a>
+                </div>
+            </div>
+            <div class="footer__data">
+                <h2>nosso endereço</h2>
+                <p>Av Aguia de Haia, 000<br> São Paulo - SP</p>
+            </div>
+            <div class="footer__data">
+                <h2>nosso horario</h2>
+                <p>Terça á sexta<br>das 09:00 as 18:00</p>
+            </div>
+            <div class="footer__data">
+                <h2>Contato</h2>
+                <p>(00) 0000000 </p>
+                
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy Todos os direitos reservados</p>
+            <span>Feito 🤎 por FLizze.Dev</span>
+        </div>
+        </footer>
+      </main>
+    <!-- javascript-->
+    <script src="script.js"></script>
+</body>
+</html>
